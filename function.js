@@ -1,106 +1,133 @@
 function find() {
 	var term = document.getElementById("search").value;
 	if (term == "CPU") {
-	  document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'CPU\')" class="definition-link">Central Processing Unit</a>';
+	  document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CPU\')" class="definition-link">Central Processing Unit</a>';
 	}
 	else if (term == "RAM") {
-	  document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'RAM\')" class="definition-link">Random Access Memory</a>';
+	  document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'RAM\')" class="definition-link">Random Access Memory</a>';
 	}
 	else if (term == "ROM") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'ROM\')" class="definition-link">Read-only Memory</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'ROM\')" class="definition-link">Read-only Memory</a>';
 	}
 	else if (term == "GPU") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'GPU\')" class="definition-link">Graphics Processing Unit</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'GPU\')" class="definition-link">Graphics Processing Unit</a>';
 	}
 	else if (term == "HDD") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'HDD\')" class="definition-link">Hard Disk Drive</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'HDD\')" class="definition-link">Hard Disk Drive</a>';
 	}
 	else if (term == "SSD") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'SSD\')" class="definition-link">Solid State Drive</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'SSD\')" class="definition-link">Solid State Drive</a>';
 	}
 	else if (term == "USB") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'USB\')" class="definition-link">Universal Serial Bus</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'USB\')" class="definition-link">Universal Serial Bus</a>';
 	}
 	else if (term == "LAN") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'LAN\')" class="definition-link">Local Area Network</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'LAN\')" class="definition-link">Local Area Network</a>';
 	}
 	else if (term == "WAN") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'WAN\')" class="definition-link">Wide Area Network</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'WAN\')" class="definition-link">Wide Area Network</a>';
 	}
 	else if (term == "VPN") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'VPN\')" class="definition-link">Virtual Private Network</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'VPN\')" class="definition-link">Virtual Private Network</a>';
 	}
 	else if (term == "HTTP") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'HTTP\')" class="definition-link">Hypertext Transfer Protocol</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'HTTP\')" class="definition-link">Hypertext Transfer Protocol</a>';
 	}
 	else if (term == "HTTPS") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'HTTPS\')" class="definition-link">HTTP Secure</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'HTTPS\')" class="definition-link">HTTP Secure</a>';
 	}
 	else if (term == "FTP") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'FTP\')" class="definition-link">File Transfer Protocol</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'FTP\')" class="definition-link">File Transfer Protocol</a>';
 	}
 	else if (term == "SFTP") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'SFTP\')" class="definition-link">Secure File Transfer Protocol</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'SFTP\')" class="definition-link">Secure File Transfer Protocol</a>';
 	}
 	else if (term == "DNS") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'DNS\')" class="definition-link">Domain Name System</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'DNS\')" class="definition-link">Domain Name System</a>';
 	}
 	else if (term == "IP") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'IP\')" class="definition-link">Internet Protocol</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'IP\')" class="definition-link">Internet Protocol</a>';
 	}
 	else if (term == "TCP") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'TCP\')" class="definition-link">Transmission Control Protocol</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'TCP\')" class="definition-link">Transmission Control Protocol</a>';
 	}
 	else if (term == "UDP") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'UDP\')" class="definition-link">User Datagram Protocol</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'UDP\')" class="definition-link">User Datagram Protocol</a>';
 	}
 	else if (term == "SMS") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'SMS\')" class="definition-link">Short Message Service</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'SMS\')" class="definition-link">Short Message Service</a>';
 	}
 	else if (term == "MMS") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'MMS\')" class="definition-link">Multimedia Messaging Service</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'MMS\')" class="definition-link">Multimedia Messaging Service</a>';
 	}
 	else if (term == "HTML") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'HTML\')" class="definition-link">Hypertext Markup Language</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'HTML\')" class="definition-link">Hypertext Markup Language</a>';
 	}
 	else if (term == "XML") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'XML\')" class="definition-link">eXtensible Markup Language</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'XML\')" class="definition-link">eXtensible Markup Language</a>';
 	}
 	else if (term == "CSS") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'CSS\')" class="definition-link">Cascading Style Sheets</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CSS\')" class="definition-link">Cascading Style Sheets</a>';
 	}
 	else if (term == "JS") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'JS\')" class="definition-link">JavaScript</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'JS\')" class="definition-link">JavaScript</a>';
 	}
 	else if (term == "SQL") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'SQL\')" class="definition-link">Structured Query Language</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'SQL\')" class="definition-link">Structured Query Language</a>';
 	}
 	else if (term == "API") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'API\')" class="definition-link">Application Programming Interface</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'API\')" class="definition-link">Application Programming Interface</a>';
 	}
 	else if (term == "GUI") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'GUI\')" class="definition-link">Graphical Use Interface</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'GUI\')" class="definition-link">Graphical Use Interface</a>';
 	}
 	else if (term == "CLI") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'CLI\')" class="definition-link">Command Line Interface</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CLI\')" class="definition-link">Command Line Interface</a>';
 	}
 	else if (term == "CAD") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'CAD\')" class="definition-link">Computer-Aided Design</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CAD\')" class="definition-link">Computer-Aided Design</a>';
 	}
 	else if (term == "CAM") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'CAM\')" class="definition-link">Computer-Aided Manufacturing</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CAM\')" class="definition-link">Computer-Aided Manufacturing</a>';
 	}
 	else if (term == "CRM") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'CRM\')" class="definition-link">Costumer Relationship Management</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CRM\')" class="definition-link">Costumer Relationship Management</a>';
 	}
 	else if (term == "AGP") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'AGP\')" class="definition-link">Accelerated Graphics Port</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'AGP\')" class="definition-link">Accelerated Graphics Port</a>';
 	}
 	else if (term == "BIOS") {
-		document.getElementById("acronym").innerHTML= 'Acronym: <a href="#" onclick="displayDefinition(\'BIOS\')" class="definition-link">Basic Input-Output Services</a>';
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'BIOS\')" class="definition-link">Basic Input-Output Services</a>';
+	}
+	else if (term == "CD") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CD\')" class="definition-link">Compact Disc</a>';
+	}
+	else if (term == "CD-R") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CD-R\')" class="definition-link">Compact Disc Recordable</a>';
+	}
+	else if (term == "CD-ROM") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CD-ROM\')" class="definition-link">Compact Disc Read-Only Memory</a>';
+	}
+	else if (term == "CD-RW") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'CD-RW\')" class="definition-link">Compact Disc Re-Writable</a>';
+	}
+	else if (term == "DRAM") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'DRAM\')" class="definition-link">Dynamic Random Access Memory</a>';
+	}
+	else if (term == "DV") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'DV\')" class="definition-link">Digital Video</a>';
+	}
+	else if (term == "DVD") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'DVD\')" class="definition-link">Digital Versatile Disc</a>';
+	}
+	else if (term == "DVD+R") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'DVD+R\')" class="definition-link">Digital Versatile Disc Recordable</a>';
+	}
+	else if (term == "DVD+RW") {
+		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'DVD+RW\')" class="definition-link">Digital Versatile Disk Rewritable</a>';
 	}
 	else {
-	  document.getElementById("acronym").innerHTML = 'Acronym: <a href="#" onclick="sendMessage()" class="error">Sorry No acronym found or maybe it is in lowercase form.</a>';
+	  document.getElementById("acronym").innerHTML = 'Backronym: <a href="#" onclick="sendMessage()" class="error">Sorry No acronym found or maybe it is in lowercase form.</a>';
 	}
 }
 
@@ -202,7 +229,34 @@ function displayDefinition(acronym) {
 		document.getElementById("definition").innerHTML = "Definition: A type of video interface introduced in 1996 as an improvement to PCI. It has now been largely replaced by PCI-e.";
 	}
 	else if (acronym == "BIOS") {
-		document.getElementById("definition").innerHTML = "This information is stored on a chip commonly referred to as the CMOS chip, which really isn't a CMOS chip at all. Usually it's a Flash-ROM chip. But they used to be CMOS chips back in the old days, and the name stuck. By whatever name, the BIOS contains the most basic information needed by the computer at the hardware level to let it know that it's a computer (rather than, for example, a toaster), how to boot up, and how to find the rest of its parts.";
+		document.getElementById("definition").innerHTML = "Definition: This information is stored on a chip commonly referred to as the CMOS chip, which really isn't a CMOS chip at all. Usually it's a Flash-ROM chip. But they used to be CMOS chips back in the old days, and the name stuck. By whatever name, the BIOS contains the most basic information needed by the computer at the hardware level to let it know that it's a computer (rather than, for example, a toaster), how to boot up, and how to find the rest of its parts.";
+	}
+	else if (acronym == "CD") {
+		document.getElementById("definition").innerHTML = "Definition: A type of optical media, so-called because it uses light to read the data stored on the disk.";
+	}
+	else if (acronym == "CD-R") {
+		document.getElementById("definition").innerHTML = "Definition: A CD that can be recorded, but from which data cannot be deleted, so the space cannot be re-used. You can record on a CD-R multiple times, but the remaining space will be reduced by whatever's already occupying space on the disk.";
+	}
+	else if (acronym == "CD-ROM") {
+		document.getElementById("definition").innerHTML = "Definition: Basically the same as any other CD, except referring specifically to a disk that contains computer data rather than music.";
+	}
+	else if (acronym == "CD-RW") {
+		document.getElementById("definition").innerHTML = "Definition: A CD that can be recorded multiple times, and from which data can be deleted and the space re-used.";
+	}
+	else if (acronym == "DRAM") {
+		document.getElementById("definition").innerHTML = "Definition: A type of RAM that stores each bit of data on separate capacitors.";
+	}
+	else if (acronym == "DV") {
+		document.getElementById("definition").innerHTML = "Definition: A protocol for the storage and transfer of audio-visual information, often used to transfer information from a camcorder to a computer, usually over a Firewire interface.";
+	}
+	else if (acronym == "DVD") {
+		document.getElementById("definition").innerHTML = "Definition: A type of optical media that allows far more storage than a CD.";
+	}
+	else if (acronym == "DVD+R") {
+		document.getElementById("definition").innerHTML = "Definition: A type of DVD that can be recorded, but from which information cannot be deleted and the space it occupied re-used.";
+	}
+	else if (acronym == "DVD+RW") {
+		document.getElementById("definition").innerHTML = "Definition: A DVD that can be recorded, and from which information can be deleted and the space it occupied re-used.";
 	}
 }
 
@@ -212,7 +266,7 @@ function reset() {
 	// Clears the value of definition
 	document.getElementById("definition").innerHTML = "";
 	// Clears the value of output Acronym
-	document.getElementById("acronym").innerHTML = "Acronym:";
+	document.getElementById("acronym").innerHTML = "Backronym:";
 }
 
 function sendMessage() {
@@ -253,15 +307,20 @@ document.addEventListener('keyup', function(event) {
     if (event.code === 'Delete') {
     var icon = document.querySelector('.icoN');
     reset();
+	// Clears the value of definition
+	document.getElementById("definition").innerHTML = "";
   }
 });
-// Event Listener on Search bar
-document.addEventListener('keyup', function(event) {
-	if (event.code === '/') {
-	  var input = document.getElementById("search");
-	  input.focus();
-	}
+// Event Listener on Search Bar
+let firstSlashPress = true;
+document.addEventListener("keydown", function(event) {
+    if (event.code === "Slash") {
+        if (firstSlashPress) {
+            event.preventDefault();
+            document.getElementById("search").focus();
+            firstSlashPress = false;
+        } else {
+            firstSlashPress = true;
+        }
+    }
 });
-  
-
-  
