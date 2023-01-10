@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<link rel="stylesheet" href="style.css">
+		<title>| Little Dictionary</title>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<h1>Co<span>mputer Acron</span>ym</h1>
+			</div>
+		</header>
+		<div class="search-container">
+			<div class="search-content">
+			   	<input type="text" id="search" name="search" placeholder="Enter Acronym">
+				<i class="uil uil-search icon" onclick="find()"></i>
+				<i class="uil uil-refresh icoN" onclick="reset()"></i>
+			</div>
+			<div class="acronym-body">
+				<div id="acronym">Acronym:</div>
+				<div id="definition"></div>
+			</div>
+		</div>
+	</body>
+	<script src="function.js"></script>
+</html>
