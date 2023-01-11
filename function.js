@@ -127,136 +127,138 @@ function find() {
 		document.getElementById("acronym").innerHTML= 'Backronym: <a href="#" onclick="displayDefinition(\'DVD+RW\')" class="definition-link">Digital Versatile Disk Rewritable</a>';
 	}
 	else {
-	  document.getElementById("acronym").innerHTML = 'Backronym: <a href="#" onclick="sendMessage()" class="error">Sorry No acronym found or maybe it is in lowercase form.</a>';
+	    document.getElementById("acronym").innerHTML = 'Backronym: <a href="#" onclick="sendMessage()" class="error">Sorry No acronym found or maybe it is in lowercase form.</a>';
+	    // Clears the value of definition
+	    document.getElementById("definition").innerHTML = "";
 	}
 }
 
 function displayDefinition(acronym) {
 	if (acronym == "CPU") {
-	  document.getElementById("definition").innerHTML = 'Definition: The Central Processing Unit is the brain of the computer. It retrieves instructions from memory and executes them.';
+	  document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: The Central Processing Unit is the brain of the computer. It retrieves instructions from memory and executes them.</div>';
 	}
 	else if (acronym == "RAM") {
-		document.getElementById("definition").innerHTML = 'Definition: Random Access Memory is a type of computer memory that can be accessed randomly, meaning that any byte of memory can be accessed without touching the preceding bytes.';
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: Random Access Memory is a type of computer memory that can be accessed randomly, meaning that any byte of memory can be accessed without touching the preceding bytes.</div>';
 	}
 	else if (acronym == "ROM") {
-		document.getElementById("definition").innerHTML = 'Definition: Read-only Memory is a type of computer storage containing non-volatile, permanent data that, normally, can only be read, not written to.';
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: Read-only Memory is a type of computer storage containing non-volatile, permanent data that, normally, can only be read, not written to.</div>';
 	}
 	else if (acronym == "GPU") {
-	  document.getElementById("definition").innerHTML = 'Definition: A Graphics Processing Unit is a specialized processor designed to handle the complex calculations needed for computer graphics.';
+	  document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A Graphics Processing Unit is a specialized processor designed to handle the complex calculations needed for computer graphics.</div>';
 	}
 	else if (acronym == "HDD") {
-		document.getElementById("definition").innerHTML = "Definition: An HDD is a data storage device that uses magnetic disks to store and retrieve digital information.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: An HDD is a data storage device that uses magnetic disks to store and retrieve digital information.</div>';
 	}
 	else if (acronym == "SSD") {
-		document.getElementById("definition").innerHTML = "Definition: An SSD is a data storage device that uses solid-state memory to store and retrieve digital information.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: An SSD is a data storage device that uses solid-state memory to store and retrieve digital information.</div>';
 	}
 	else if (acronym == "USB") {
-		document.getElementById("definition").innerHTML = "Definition: USB is a standard that allows computers to communicate with external devices such as printers, keyboards, and mice.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: USB is a standard that allows computers to communicate with external devices such as printers, keyboards, and mice.</div>';
 	}
 	else if (acronym == "LAN") {
-		document.getElementById("definition").innerHTML = "Definition: is a computer network that connects devices in a limited geographical area such as a home, school, or office building.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a computer network that connects devices in a limited geographical area such as a home, school, or office building.</div>';
 	}
 	else if (acronym == "WAN") {
-		document.getElementById("definition").innerHTML = "Definition: is a computer network that spans a large geographical area, such as across cities or even countries.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a computer network that spans a large geographical area, such as across cities or even countries.</div>';
 	}
 	else if (acronym == "VPN") {
-		document.getElementById("definition").innerHTML = "Definition: is a private network that is created over a public network, such as the internet. It enables users to send and receive data across shared or public networks as if their devices were directly connected to the private network.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a private network that is created over a public network, such as the internet. It enables users to send and receive data across shared or public networks as if their devices were directly connected to the private network.</div>';
 	}
 	else if (acronym == "HTTP") {
-		document.getElementById("definition").innerHTML = "Definition: is a set of rules for transferring files (such as HTML documents, images, and videos) on the World Wide Web.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a set of rules for transferring files (such as HTML documents, images, and videos) on the World Wide Web.</div>';
 	}
 	else if (acronym == "HTTPS") {
-		document.getElementById("definition").innerHTML = "Definition: is a secure version of HTTP that encrypts data sent between a web server and a client.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a secure version of HTTP that encrypts data sent between a web server and a client.</div>';
 	}
 	else if (acronym == "FTP") {
-		document.getElementById("definition").innerHTML = "Definition: is a standard network protocol used to transfer files from one host to another over a TCP-based network, such as the internet.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a standard network protocol used to transfer files from one host to another over a TCP-based network, such as the internet.</div>';
 	}
 	else if (acronym == "SFTP") {
-		document.getElementById("definition").innerHTML = "Definition: is a network protocol that provides file access, file transfer, and file management over any reliable data stream. It was designed as an extension of the Secure Shell (SSH) protocol.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a network protocol that provides file access, file transfer, and file management over any reliable data stream. It was designed as an extension of the Secure Shell (SSH) protocol.</div>';
 	}
 	else if (acronym == "DNS") {
-		document.getElementById("definition").innerHTML = "Definition: is a hierarchical decentralized naming system for computers, services, or other resources connected to the internet or a private network. It translates human-readable domain names into numerical IP addresses.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a hierarchical decentralized naming system for computers, services, or other resources connected to the internet or a private network. It translates human-readable domain names into numerical IP addresses.</div>';
 	}
 	else if (acronym == "IP") {
-		document.getElementById("definition").innerHTML = "Definition: An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.</div>';
 	}
 	else if (acronym == "TCP") {
-		document.getElementById("definition").innerHTML = "Definition: is a set of rules for transmitting data over the internet. It divides the data into small packets and sends them separately, reassembling them at the destination.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a set of rules for transmitting data over the internet. It divides the data into small packets and sends them separately, reassembling them at the destination.</div>';
 	}
 	else if (acronym == "UDP") {
-		document.getElementById("definition").innerHTML = "Definition: is a connectionless protocol that allows data to be transmitted over a network without establishing a connection.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a connectionless protocol that allows data to be transmitted over a network without establishing a connection.</div>';
 	}
 	else if (acronym == "SMS") {
-		document.getElementById("definition").innerHTML = "Definition: is a text messaging service component of most telephone, internet, and mobile-device systems. It uses standardized communication protocols to allow fixed line or mobile phone devices to exchange short text messages.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a text messaging service component of most telephone, internet, and mobile-device systems. It uses standardized communication protocols to allow fixed line or mobile phone devices to exchange short text messages.</div>';
 	}
 	else if (acronym == "MMS") {
-		document.getElementById("definition").innerHTML = "Definition: is a standard way to send messages that include multimedia content to and from mobile phones.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a standard way to send messages that include multimedia content to and from mobile phones.</div>';
 	}
 	else if (acronym == "HTML") {
-		document.getElementById("definition").innerHTML = "Definition: is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</div>';
 	}
 	else if (acronym == "XML") {
-		document.getElementById("definition").innerHTML = "Definition: is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.</div>';
 	}
 	else if (acronym == "CSS") {
-		document.getElementById("definition").innerHTML = "Definition: is a style sheet language used for describing the look and formatting of a document written in HTML.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a style sheet language used for describing the look and formatting of a document written in HTML.</div>';
 	}
 	else if (acronym == "JS") {
-		document.getElementById("definition").innerHTML = "Definition: JavaScript is a programming language that is commonly used in web development to add interactivity to websites. It is a client-side scripting language, which means that it is executed by the user's web browser rather than on the server. JavaScript is often used to create responsive and dynamic websites and applications.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: JavaScript is a programming language that is commonly used in web development to add interactivity to websites. It is a client-side scripting language, which means that it is executed by the user\'s web browser rather than on the server. JavaScript is often used to create responsive and dynamic websites and applications.</div>';
 	}
 	else if (acronym == "SQL") {
-		document.getElementById("definition").innerHTML = "Definition: is a programming language used to manage and manipulate data stored in relational database management systems.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a programming language used to manage and manipulate data stored in relational database management systems.</div>';
 	}
 	else if (acronym == "API") {
-		document.getElementById("definition").innerHTML = "Definition: is a set of protocols, routines, and tools for building software and applications. It specifies how software components should interact and is used to build and integrate software systems.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a set of protocols, routines, and tools for building software and applications. It specifies how software components should interact and is used to build and integrate software systems.</div>';
 	}
 	else if (acronym == "GUI") {
-		document.getElementById("definition").innerHTML = "Definition: is a type of user interface that allows users to interact with electronic devices through visual indicators such as windows, icons, and buttons.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a type of user interface that allows users to interact with electronic devices through visual indicators such as windows, icons, and buttons.</div>';
 	}
 	else if (acronym == "CLI") {
-		document.getElementById("definition").innerHTML = "Definition: is a user interface that allows users to interact with electronic devices using commands entered through a command line or terminal.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is a user interface that allows users to interact with electronic devices using commands entered through a command line or terminal.</div>';
 	}
 	else if (acronym == "CAD") {
-		document.getElementById("definition").innerHTML = "Definition: is the use of computer systems to assist in the creation, modification, analysis, or optimization of a design.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is the use of computer systems to assist in the creation, modification, analysis, or optimization of a design.</div>';
 	}
 	else if (acronym == "CAM") {
-		document.getElementById("definition").innerHTML = "Definition: is the use of computer systems to plan, coordinate, and control the operations of a manufacturing plant.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is the use of computer systems to plan, coordinate, and control the operations of a manufacturing plant.</div>';
 	}
 	else if (acronym == "CRM") {
-		document.getElementById("definition").innerHTML = "Definition: is the practice of managing and organizing customer interactions and data throughout the customer lifecycle, with the goal of improving customer relationships and business outcomes.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: is the practice of managing and organizing customer interactions and data throughout the customer lifecycle, with the goal of improving customer relationships and business outcomes.</div>';
 	}
 	else if (acronym == "AGP") {
-		document.getElementById("definition").innerHTML = "Definition: A type of video interface introduced in 1996 as an improvement to PCI. It has now been largely replaced by PCI-e.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A type of video interface introduced in 1996 as an improvement to PCI. It has now been largely replaced by PCI-e.</div>';
 	}
 	else if (acronym == "BIOS") {
-		document.getElementById("definition").innerHTML = "Definition: This information is stored on a chip commonly referred to as the CMOS chip, which really isn't a CMOS chip at all. Usually it's a Flash-ROM chip. But they used to be CMOS chips back in the old days, and the name stuck. By whatever name, the BIOS contains the most basic information needed by the computer at the hardware level to let it know that it's a computer (rather than, for example, a toaster), how to boot up, and how to find the rest of its parts.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: This information is stored on a chip commonly referred to as the CMOS chip, which really isn\'t a CMOS chip at all. Usually it\'s a Flash-ROM chip. But they used to be CMOS chips back in the old days, and the name stuck. By whatever name, the BIOS contains the most basic information needed by the computer at the hardware level to let it know that it\'s a computer (rather than, for example, a toaster), how to boot up, and how to find the rest of its parts.</div>';
 	}
 	else if (acronym == "CD") {
-		document.getElementById("definition").innerHTML = "Definition: A type of optical media, so-called because it uses light to read the data stored on the disk.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A type of optical media, so-called because it uses light to read the data stored on the disk.</d>';
 	}
 	else if (acronym == "CD-R") {
-		document.getElementById("definition").innerHTML = "Definition: A CD that can be recorded, but from which data cannot be deleted, so the space cannot be re-used. You can record on a CD-R multiple times, but the remaining space will be reduced by whatever's already occupying space on the disk.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A CD that can be recorded, but from which data cannot be deleted, so the space cannot be re-used. You can record on a CD-R multiple times, but the remaining space will be reduced by whatever\'s already occupying space on the disk.</div>';
 	}
 	else if (acronym == "CD-ROM") {
-		document.getElementById("definition").innerHTML = "Definition: Basically the same as any other CD, except referring specifically to a disk that contains computer data rather than music.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: Basically the same as any other CD, except referring specifically to a disk that contains computer data rather than music.</div>';
 	}
 	else if (acronym == "CD-RW") {
-		document.getElementById("definition").innerHTML = "Definition: A CD that can be recorded multiple times, and from which data can be deleted and the space re-used.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A CD that can be recorded multiple times, and from which data can be deleted and the space re-used.</div>';
 	}
 	else if (acronym == "DRAM") {
-		document.getElementById("definition").innerHTML = "Definition: A type of RAM that stores each bit of data on separate capacitors.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A type of RAM that stores each bit of data on separate capacitors.</div>';
 	}
 	else if (acronym == "DV") {
-		document.getElementById("definition").innerHTML = "Definition: A protocol for the storage and transfer of audio-visual information, often used to transfer information from a camcorder to a computer, usually over a Firewire interface.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A protocol for the storage and transfer of audio-visual information, often used to transfer information from a camcorder to a computer, usually over a Firewire interface.</div>';
 	}
 	else if (acronym == "DVD") {
-		document.getElementById("definition").innerHTML = "Definition: A type of optical media that allows far more storage than a CD.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A type of optical media that allows far more storage than a CD.</div>';
 	}
 	else if (acronym == "DVD+R") {
-		document.getElementById("definition").innerHTML = "Definition: A type of DVD that can be recorded, but from which information cannot be deleted and the space it occupied re-used.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A type of DVD that can be recorded, but from which information cannot be deleted and the space it occupied re-used.</d>';
 	}
 	else if (acronym == "DVD+RW") {
-		document.getElementById("definition").innerHTML = "Definition: A DVD that can be recorded, and from which information can be deleted and the space it occupied re-used.";
+		document.getElementById("definition").innerHTML = '<div class="definition-content">Definition: A DVD that can be recorded, and from which information can be deleted and the space it occupied re-used.</div>';
 	}
 }
 
@@ -269,32 +271,28 @@ function reset() {
 	document.getElementById("acronym").innerHTML = "Backronym:";
 }
 
+var alertBoxVisible = false;
 function sendMessage() {
-	// Create the alert box
-	var alertBox = document.createElement("div");
-	alertBox.className = "alert";
-  
-	// Add a message
-	var message = document.createTextNode("There's no Acronym appeared.");
-	alertBox.appendChild(message);
-  
-	// Add a close button
-	var closeButton = document.createElement("span");
-	closeButton.className = "closebtn";
-	closeButton.innerHTML = "&times;";
-	alertBox.appendChild(closeButton);
-  
-	// Add the alert box to the page
-	document.body.appendChild(alertBox);
-  
-	// Set the opacity of the alert box to 1 to trigger the fade-in animation
-	alertBox.style.opacity = "1";
-  
-	// Close the alert box when the close button is clicked
-	closeButton.onclick = function() {
-	  alertBox.style.display = "none";
-	}
+    if(alertBoxVisible) return;
+
+    var alertBox = document.createElement("div");
+    alertBox.className = "alert";
+    var message = document.createTextNode("There's no Acronym appeared.");
+    alertBox.appendChild(message);
+    var closeButton = document.createElement("span");
+    closeButton.className = "closebtn";
+    closeButton.innerHTML = "&times;";
+    alertBox.appendChild(closeButton);
+    document.body.appendChild(alertBox);
+    alertBox.style.opacity = "1";
+    alertBoxVisible = true;
+
+    closeButton.onclick = function() {
+        alertBox.parentNode.removeChild(alertBox);
+        alertBoxVisible = false;
+    }
 }
+
 // Event listener on Search Icon 
 document.addEventListener('keyup', function(event) {
     if (event.code === 'Enter') {
