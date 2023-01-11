@@ -6,27 +6,44 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="breakpoints.css">
 		<title>| Little Dictionary</title>
 	</head>
 	<body>
 		<header>
 			<div class="header">
-				<h1>Co<span>mputer Dictiona</span>ry</h1>
+				<h1>Computer Dictionary</h1>
 			</div>
 		</header>
 		<div class="search-container">
 			<div class="search-content">
-				<input type="text" id="search" name="search" placeholder="Enter Acronym">
-				<i class="uil uil-search icon" onclick="find()"></i>
-				<i class="uil uil-refresh icoN" onclick="reset()"></i>
+				<input type="text" name="search" id="search" autocomplete="off" required />
+				<label for="search" class="label-name">
+					<span class="content-name">
+						Enter Acronym
+					</span>
+				</label>
 			</div>
-			<div class="acronym-body">
-			  <div id="acronym">Backronym:</div>
-			  <div id="definition"></div>
+			<div class="buttons">
+				<button class="search-button" onclick="find()">find</button>
+				<button class="reset-button" onclick="reset()">reset</button>
 			</div>
-		</div>		
+		</div>
+		<div class="acronym-body">
+			<div id="acronym">Backronym:</div>
+			<div id="definition"></div>
+		</div>
+		<div class="bookmark">
+			<div class="b">
+				<a href="https://www.facebook.com/cedric.angulo.18" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://github.com/bryan308" target="_blank" class="fa fa-github"></a>
+                <a href="https://twitter.com/cedric_angulo" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://linkedin.com/in/cedric-angulo-2632ab256" target="_blank" class="fa fa-linkedin"></a>
+			</div>
+		</div>
 	</body>
 	<script src="function.js"></script>
 </html>
