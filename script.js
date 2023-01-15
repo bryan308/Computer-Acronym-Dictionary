@@ -296,14 +296,14 @@ function sendMessage() {
 // Event listener on Search Icon 
 document.addEventListener('keyup', function(event) {
     if (event.code === 'Enter') {
-    var icon = document.querySelector('.icon');
+    var searchButton = document.querySelector('.search-button');
     find();
   }
 });
 // event listener on Reset Icon
 document.addEventListener('keyup', function(event) {
     if (event.code === 'Delete') {
-    var icon = document.querySelector('.icoN');
+    var resetButton = document.querySelector('.reset-button');
     reset();
 	// Clears the value of definition
 	document.getElementById("definition").innerHTML = "";
